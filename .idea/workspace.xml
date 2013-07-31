@@ -6,7 +6,7 @@
     </list>
     <ignored path="photoCollections.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="535de33a-eeb7-4d6b-afa7-6dfee56be985" time="1375238667843" ignored="false" />
+    <file path="/Dummy.txt" changelist="535de33a-eeb7-4d6b-afa7-6dfee56be985" time="1375238687354" ignored="false" />
     <file path="/index.html" changelist="535de33a-eeb7-4d6b-afa7-6dfee56be985" time="1375238475012" ignored="false" />
     <file path="/style.css" changelist="535de33a-eeb7-4d6b-afa7-6dfee56be985" time="1375238163466" ignored="false" />
     <file path="/a.dummy" changelist="535de33a-eeb7-4d6b-afa7-6dfee56be985" time="1375234345457" ignored="false" />
@@ -189,7 +189,11 @@
       <created>1375238672473</created>
       <updated>1375238672473</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Creating directorys and editing mainview at  index.html">
+      <created>1375238690949</created>
+      <updated>1375238690949</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
