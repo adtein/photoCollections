@@ -4,6 +4,7 @@
     <title></title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
 
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
     <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
@@ -11,22 +12,49 @@
 </head>
 <body>
 <!-- Start of first page -->
-<div data-role="page" id="foo">
+<div data-role="page" id="main">
 
     <div data-role="header">
         <div align="center">
             <img src="img/indexlogo.png" alt="main logo" vspace="2"/>
         </div>
-        <h1>Foo</h1>
+        <h1>PhotoCollection</h1>
     </div><!-- /header -->
 
-    <div data-role="content">
-        <p>I'm first in the source order so I'm shown as the page.</p>
-        <p>View internal page called <a href="#bar">bar</a></p>
-    </div><!-- /content -->
+    <div data-role="content" align="center">
+
+        <div id="Container" align="center">
+            <div id="Box1" align="center">
+                <img src="img/photofinder.png" alt="Smiley face" >
+                <p>Add your Image</p>
+            </div> <!--end Box1 -->
+            <div id="Box2" align="center">
+                <img src="img/arrownext.png" alt="Smiley face" style="margin-top: 15px">
+
+            </div>
+            <div id="Box3" align="center">
+                <img src="img/size.png" alt="Smiley face" >
+                <p>Select your size to print</p>
+
+            </div> <!--end Box3 -->
+            <div id="Box4" align="center">
+                <img src="img/arrownext.png" alt="Smiley face" style="margin-top: 15px">
+
+            </div>
+            <div id="Box5" align="center">
+                <img src="img/printer.png" alt="Smiley face" >
+                <p>Receive the printed Result to Home</p>
+
+            </div>
+            <!--float clearing-->
+            <hr class="clearing" />
+
+        </div>
+
+        </div><!-- /content -->
 
     <div data-role="footer">
-        <h4>Page Footer</h4>
+        <h4>Adtein Costa Rica</h4>
     </div><!-- /footer -->
 </div><!-- /page -->
 

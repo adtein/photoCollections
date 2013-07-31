@@ -1,0 +1,33 @@
+#Container {
+
+
+
+    margin:0 auto; /*centered*/
+
+    text-align: center;
+}
+
+#Box1, #Box2, #Box3,#Box4,#Box5 {
+    width: auto;
+    min-height: 25px;
+    margin-bottom:20px;
+    margin-left: 5px;
+
+
+
+    /*to reduce float drop issues in IE*/
+    word-wrap: break-word;
+}
+#Box1 {float: left;}
+#Box2 {float: left;}
+#Box3 {float: left;}
+#Box4 {float: left;}
+#Box5 {float: left;}
+/**Clear floats after the boxes**/
+.clearing {
+    clear:both;
+    visibility:hidden;
+    line-height:0;
+    font-size:1px;
+    display:block;
+}
